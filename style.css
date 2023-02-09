@@ -20,51 +20,26 @@ body {
 
 
 
-/*************BACK ARROWS********************/
+/*************BACK ARROW********************/
 
 
 
-.top-wrapper {
+.arrow {
     position: absolute;
-    top: 140vh;
-    display: flex;
-    text-align: center;
-    padding-left: 10vw;
+    position: fixed;
+    top: 80vh;
+    left: 5vw;
 }
 
-
-
-  
-.link {
-    position: sticky;
-    pointer-events: all;
+.arrow a {
     text-decoration: none;
-	max-width: 100%;
-	height: 40px;
-    text-align: center;
-    font-size: 48px;
-    font-weight: bold;
+    font-size: 30px;
     color: #333;
 }
 
 
-.top-1 {
-    top: 140vh;
-}
 
-.top-2 {
-    top: 250vh;
-}
-
-.top-3 {
-    top: 360vh;
-}
-
-.top-4 {
-    top: 460vh;
-}
-
-/**************BACK ARROWS*******************/
+/**************BACK ARROW*******************/
 
 
 
@@ -259,6 +234,11 @@ header {
     #hero{
         margin-top: 10px;
     }
+
+    #hero h1{
+        margin-top: 0;
+        font-size: 30px;
+    }
 }
 
 /* END OF RESP HERO */
@@ -329,7 +309,7 @@ header {
         position: relative;
         display: flex;
         justify-content: center;
-        padding-top: 50vh;
+        padding-top: 20vh;
     }
     
     #about::before {
@@ -489,7 +469,7 @@ header {
 
     #services .calendar {
         position: relative;
-        padding-top: 20vh;
+        padding-top: 10vh;
     }
 
 }
@@ -650,6 +630,24 @@ header {
 
 /* END OF CONTACT SECTION */
 
+
+
+
+
+
+
+/* RESP CONTACT SECTION */
+
+@media only screen and (max-width: 550px) {
+
+
+    #contact {
+        padding: 0;
+    }
+
+}
+
+/* END OF RESP CONTACT SECTION */
 
 
 
