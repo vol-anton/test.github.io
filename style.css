@@ -13,8 +13,9 @@ body {
 
 
 
-
-
+.arrow {
+    display: none;
+}
 
 
 
@@ -23,18 +24,21 @@ body {
 /*************BACK ARROW********************/
 
 
+@media only screen and (max-width: 550px) {
 
-.arrow {
-    position: absolute;
-    position: fixed;
-    top: 80vh;
-    left: 5vw;
-}
+    .arrow {
+        display: flex;
+        position: absolute;
+        position: fixed;
+        top: 80vh;
+        left: 5vw;
+    }
 
-.arrow a {
-    text-decoration: none;
-    font-size: 30px;
-    color: #333;
+    .arrow a {
+        text-decoration: none;
+        font-size: 30px;
+        color: #333;
+    }
 }
 
 
