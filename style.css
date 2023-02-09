@@ -16,6 +16,61 @@ body {
 
 
 
+
+
+
+
+/*************BACK ARROWS********************/
+
+
+
+.top-wrapper {
+    position: absolute;
+    top: 140vh;
+    display: flex;
+    text-align: center;
+    padding-left: 10vw;
+}
+
+
+
+  
+.link {
+    position: sticky;
+    pointer-events: all;
+    text-decoration: none;
+	max-width: 100%;
+	height: 40px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.top-1 {
+    top: 140vh;
+}
+
+.top-2 {
+    top: 250vh;
+}
+
+.top-3 {
+    top: 360vh;
+}
+
+.top-4 {
+    top: 460vh;
+}
+
+/**************BACK ARROWS*******************/
+
+
+
+
+
+
 /* GENERAL BUTTON */
 
 .btn {
@@ -111,6 +166,10 @@ header {
 
 @media only screen and (max-width: 550px) {
 
+    header {
+        position: relative;
+    }
+
     .nav-bar  {
         display: flex;
         flex-direction: column;
@@ -127,7 +186,6 @@ header {
 }
 
 /* END OF RESP NAV */
-
 
 
 
@@ -190,6 +248,20 @@ header {
 
 
 /* END OF HERO SECTION */
+
+
+
+
+/* RESPONSIVE HERO */
+
+@media only screen and (max-width: 550px) {
+
+    #hero{
+        margin-top: 10px;
+    }
+}
+
+/* END OF RESP HERO */
 
 
 
