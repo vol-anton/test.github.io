@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Fitness Coach</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+
+        <nav class="nav-bar">
+            
+            <a href="index.html">
+                <img src="https://cdn-icons-png.flaticon.com/512/39/39192.png?w=740&t=st=1675850308~exp=1675850908~hmac=a52327248d6bb65ca486a2a99d2cdf523a6f20e108f1af53422eaf3de0089e96" alt="logo-nom">
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <main>
+
+        <section id="survey">
+
+            <img src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="photo-survey-1">
+            
+            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdpEQgjXbj6Wf5IOSHfdURYaiAUeqENhRSFnyXSPa2ParCtkA/formResponse" method="POST">
+                <label for="survey">Participez à une enquête rapide</label>
+
+                <input type="text" name="entry.1267008964" placeholder="Nom Prénom">
+
+                <input type="email" name="entry.934395089" placeholder="example@email.com">
+  
+                <label for="q3" class="question">Depuis combien de temps pratiquez-vous régulièrement des activités physiques?</label>  
+                <div class="wrap-rep">
+                    <input type="radio" class="radio-checkb" name="entry.1359857364" value="Je pratique des activités physiques depuis environ 6 mois."/>
+                    <p class="radio-checkb-text">Je pratique des activités physiques depuis environ 6 mois.</p>
+                </div>
+                <div class="wrap-rep">
+                    <input type="radio" class="radio-checkb" name="entry.1359857364" value="J'ai commencé à m'entraîner régulièrement il y a un an."/>
+                    <p class="radio-checkb-text">J'ai commencé à m'entraîner régulièrement il y a un an.</p>
+                </div>
+                <div class="wrap-rep">
+                    <input type="radio" class="radio-checkb" name="entry.1359857364" value="Je suis actif depuis environ 3 ans."/>
+                    <p class="radio-checkb-text">Je suis actif depuis environ 3 ans.</p>
+                </div>
+
+
+
+                <label for="q4" class="question">Quels sont vos objectifs en matière de condition physique?</label>  
+                <div class="wrap-rep">
+                    <input type="checkbox" class="radio-checkb" name="entry.260417986" value="Je veux améliorer ma condition physique générale et perdre du poids."/>
+                    <p class="radio-checkb-text">Je veux améliorer ma condition physique générale et perdre du poids.</p>
+                </div>
+                <div class="wrap-rep">
+                    <input type="checkbox" class="radio-checkb" name="entry.260417986" value="Je veux devenir plus fort et développer mes muscles."/>
+                    <p class="radio-checkb-text">Je veux devenir plus fort et développer mes muscles.</p>
+                </div>
+                <div class="wrap-rep">
+                    <input type="checkbox" class="radio-checkb" name="entry.260417986" value="Je veux améliorer ma souplesse et ma posture."/>
+                    <p class="radio-checkb-text">Je veux améliorer ma souplesse et ma posture.</p>
+                </div>
+ 
+ 
+                <label for="q5" class="question">Quel est votre niveau actuel d'activité physique sur une échelle de 1 à 10?</label>  
+                <input type="text" name="entry.1295420610" placeholder="Chiffre">
+
+                <label for="q6" class="question">Toute information supplémentaire</label>  
+                <input type="text" name="entry.637179981" placeholder="(si besoin)">
+
+                <button type="submit">Soumettre</button>
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer class="survey-footer">
+        <p>
+        &copy; 2023 Fitness Coach
+        </p>
+    </footer>
+
+
+  </body>
+</html>
