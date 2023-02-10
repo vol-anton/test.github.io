@@ -712,7 +712,6 @@ footer p {
     text-align: left;
     margin-left: 7vw;
     padding: 5vh;
-    margin-bottom: 50vh;
     background-color: #ffffff;
     border-radius: 10px;
     text-align: center;
@@ -823,7 +822,7 @@ footer p {
         position: relative;
         display: flex;
         justify-content: center;
-        padding-top: 20vh;
+        padding: 2vh 0 20vh 0;
 
         }
 
