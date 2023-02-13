@@ -3,12 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    --checked-color: #333;
+    --checked-color: #1C2B32;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;;
-    background-color: #f2f2f2;
+    background-color: #F4F1E7;
 }
 
 
@@ -58,7 +58,7 @@ body {
     display: inline-block;
     padding: 10px 20px;
     background-color: #ffffff;
-    color: #333;
+    color: #1C2B32;
     border: none;
     border-radius: 15px;
     font-size: 14px;
@@ -71,7 +71,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #333;
+    background-color: #1C2B32;
     color: #ffffff;
 }
 
@@ -125,7 +125,7 @@ header {
   
 .nav-bar ul a {
     text-decoration: none;
-    color: #333;
+    color: #1C2B32;
     font-size: 0.9em;
 }
   
@@ -270,7 +270,7 @@ header {
 #about img {
     width: 40%;
     height: auto;
-    opacity: 60%;
+    opacity: 80%;
     border-radius: 25px 0 0 25px;
 }
 
@@ -289,13 +289,13 @@ header {
 
 #about .btn {
     margin-top: 5vh;
-    background-color: #333;
+    background-color: #1C2B32;
     color: #ffffff;
 }
 
 #about .btn:hover {
     background-color: #ffffff;
-    color: #333;
+    color: #1C2B32;
 }
 
 /* END OF PRESENTATION SECTION */
@@ -361,7 +361,7 @@ header {
 #services img {
     width: 60%;
     height: auto;
-    opacity: 60%;
+    opacity: 80%;
     border-radius: 0 25px 25px 0;
 }
 
@@ -411,7 +411,7 @@ header {
 #services form button[type="submit"] {
     display: inline-block;
     padding: 10px 40px;
-    background-color: #333;
+    background-color: #1C2B32;
     color: #ffffff;
     border: none;
     border-radius: 15px;
@@ -425,7 +425,7 @@ header {
 }
 
 #services form button[type="submit"]:hover {
-    background-color: #056644;
+    background-color: #BDC19B;
 }
 
 
@@ -478,7 +478,7 @@ header {
     }
 
     #services form input[type="text"], #services form input[type="email"], #services form input[type="date"] {
-        border: solid 0.5px #333;
+        border: solid 0.5px #1C2B32;
     }
 
 }
@@ -604,7 +604,7 @@ header {
 #contact form button[type="submit"] {
     display: inline-block;
     padding: 10px 40px;
-    background-color: #333;
+    background-color: #1C2B32;
     color: #ffffff;
     border: none;
     border-radius: 15px;
@@ -618,7 +618,7 @@ header {
 }
 
 #contact form button[type="submit"]:hover {
-    background-color: #056644;
+    background-color: #BDC19B;
 }
 
 #contact .social {
@@ -629,8 +629,13 @@ header {
 
 #contact a {
     text-decoration: none;
-    opacity: 0.7;
+    opacity: 0.2;
     margin: 1vh;
+}
+
+#contact a img {
+    width: 50px;
+    height: auto;
 }
 
 #contact a:hover {
@@ -656,7 +661,7 @@ header {
     }
 
     #contact form input[type="text"], #contact form input[type="email"] {
-        border: solid 0.5px #333;
+        border: solid 0.5px #1C2B32;
     }
 
 }
@@ -672,7 +677,7 @@ header {
 /* FOOTER */
 
 footer {
-    background-color: #333;
+    background-color: #1C2B32;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -775,7 +780,7 @@ footer p {
     padding: 7px;
     font-size: 14px;
     margin-bottom: 15px;
-    border: 0.1em solid #333;
+    border: 0.1em solid #1C2B32;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
@@ -784,7 +789,7 @@ footer p {
 #survey form button[type="submit"] {
     display: inline-block;
     padding: 10px 40px;
-    background-color: #333;
+    background-color: #1C2B32;
     color: #ffffff;
     border: none;
     border-radius: 15px;
@@ -798,7 +803,7 @@ footer p {
 }
 
 #survey form button[type="submit"]:hover {
-    background-color: #056644;
+    background-color: #BDC19B;
 }
 
 
