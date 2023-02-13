@@ -819,7 +819,7 @@ footer p {
 
 /* RESP SURVEY SECTION */
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 960px) {
 
     #survey {
         position: relative;
