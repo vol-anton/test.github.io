@@ -525,7 +525,7 @@ header {
 
 /* WORKOUT RESP SECTION */
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 960px) {
 
 
     #workout video {
@@ -647,7 +647,7 @@ header {
 
 /* RESP CONTACT SECTION */
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 960px) {
 
 
     #contact {
