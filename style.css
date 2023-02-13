@@ -741,7 +741,6 @@ footer p {
     display: flex;
     align-items: center;
     margin-top: 1rem;
-
 }
 
 #survey .radio-checkb {
@@ -749,12 +748,15 @@ footer p {
     accent-color: var(--checked-color);
 }
 
-#survey .radio-checkb-text {
+#survey .wrap-rep .radio-checkb-text {
     font-size: 14px;
     text-align: left;
     font-weight: 500;
     text-transform: none;
     text-align: start;
+    width: 300px;
+    height: 22px;
+    margin-bottom: 15px;
 }
 
 
@@ -867,13 +869,10 @@ footer p {
     }
     
    
-    #survey .radio-checkb-text {
+    #survey .wrap-rep .radio-checkb-text {
         font-size: 13px;
-    }
-    
-
-    #survey .wrap-rep{
-        max-width: 300px;
+        height: auto;
+        margin: auto;
     }
     
 
