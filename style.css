@@ -860,6 +860,13 @@ footer p {
         font-size: 14px;
         text-align: left;
     }
+
+       
+    #survey .radio-checkb {
+        display: block;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
     
    
     #survey .radio-checkb-text {
