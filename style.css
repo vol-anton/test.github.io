@@ -477,6 +477,10 @@ header {
         padding-top: 10vh;
     }
 
+    #services form input[type="text"], #services form input[type="email"], #services form input[type="date"] {
+        border: solid 0.5px #333;
+    }
+
 }
 
 
@@ -648,6 +652,11 @@ header {
 
     #contact {
         padding: 0;
+        margin: 25px;
+    }
+
+    #contact form input[type="text"], #contact form input[type="email"] {
+        border: solid 0.5px #333;
     }
 
 }
