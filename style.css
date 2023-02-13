@@ -860,7 +860,10 @@ footer p {
    
     #survey .radio-checkb-text {
         font-size: 13px;
+    }
 
+    #survey .radio-checkb {
+        height: 30px;
     }
 
     #survey .wrap-rep{
