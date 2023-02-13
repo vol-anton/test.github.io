@@ -848,6 +848,31 @@ footer p {
         display: none;
     }
 
+
+    #survey .question{
+        font-size: 14px;
+        text-align: left;
+    }
+    
+    #survey .wrap-rep{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    #survey .radio-checkb{
+    
+        margin: 0;
+    }
+    
+    #survey .radio-checkb-text {
+        font-size: 13px;
+        text-align: left;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    
+
 }
 
 /* END OF RESP SURVEY SECTION */
