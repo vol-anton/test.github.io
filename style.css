@@ -738,13 +738,14 @@ footer p {
 
 #survey .wrap-rep{
     display: grid;
-    grid-template-columns: 20px 400px;
+    grid-template-columns: 40px 400px;
 
 }
 
 #survey .radio-checkb {
     margin: 10px;
-    width: 50%;
+    width: 20px;
+    height: auto;
 }
 
 #survey .radio-checkb-text {
@@ -861,13 +862,10 @@ footer p {
     #survey .radio-checkb-text {
         font-size: 13px;
     }
-
-    #survey .radio-checkb {
-        height: 30px;
-    }
+    
 
     #survey .wrap-rep{
-        grid-template-columns: 20px 200px;
+        grid-template-columns: 40px 200px;
     }
     
 
