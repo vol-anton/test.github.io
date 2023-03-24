@@ -82,6 +82,7 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transition: 0.2s linear;
 }
 
 hr {
@@ -11403,9 +11404,27 @@ p.lead {
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
-.social-icons .social-icon:hover {
+/* .social-icons .social-icon:hover {
   background-color: #368098;
+} */
+
+.linkedin:hover {
+  background-color: #0a66c2;
 }
+
+.github:hover {
+  background-color: #161b22;
+}
+
+.dribbble:hover {
+  background-color: #ea4c89;
+}
+
+.insta:hover {
+  background-color: #ef4b5e;
+}
+
+
 
 .dev-icons {
   font-size: 3rem;
@@ -11443,3 +11462,53 @@ section.resume-section .resume-section-content {
     padding-top: 15vh;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.darkbg {
+  background-color: #292c35;
+  transition: 0.2s linear;
+  /* color: #6c757d; */
+}
+
+.lightText {
+  color: var(--bs-gray-400);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -31,4 +31,20 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+
+
+    // toggle dark mode
+    const checkbox = document.getElementById('checkbox');
+
+    let changeText = document.querySelectorAll('.changeText');
+    
+    checkbox.addEventListener('change', ()=>{
+        document.body.classList.toggle('darkbg');
+        for (let i = 0; i < changeText.length; i++) {
+
+            changeText[i].classList.toggle('lightText');
+        }
+    });
+
+
 });
