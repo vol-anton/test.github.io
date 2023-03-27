@@ -11470,7 +11470,6 @@ section.resume-section .resume-section-content {
 
 /* whatsapp me */
 .side-text {
-  writing-mode: sideways-rl;
   font-family: sans-serif;
   font-size: 12px;
   display: flex;
