@@ -233,11 +233,11 @@ sup {
 }
 
 a {
-  color: black;
-  text-decoration: underline;
+  color: #495057;
+  text-decoration: none;
 }
 a:hover {
-  color: #757575;
+  color: darkcyan;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -4491,7 +4491,7 @@ textarea.form-control-lg {
 }
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  color: darkcyan;
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.55);
@@ -11383,7 +11383,7 @@ p.lead {
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
     transform: rotate(-90deg);
-    margin-bottom: 4em;
+    margin-bottom: 5em;
   }
   .card {
     width: 50% !important;
@@ -11468,6 +11468,18 @@ section.resume-section .resume-section-content {
 
 
 
+/* whatsapp me */
+.side-text {
+  writing-mode: sideways-rl;
+  font-family: sans-serif;
+  font-size: 12px;
+  float: right;
+}
+
+.side-text a {
+  font-size: 14px;
+  font-weight: bold;
+}
 
 
 
@@ -11478,12 +11490,15 @@ section.resume-section .resume-section-content {
 
 
 
+/* dark BG toggler */
 
+#checkbox {
+  visibility: hidden;
+}
 
-
-
-
-
+/* label {
+  cursor: pointer;
+} */
 
 
 .darkbg {
@@ -11494,6 +11509,39 @@ section.resume-section .resume-section-content {
 
 .lightText {
   color: var(--bs-gray-400);
+}
+
+
+label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 50px;
+  height: 30px;
+  background: #495057;
+  margin-top: 3vh;
+  border-radius: 100px;
+  position: absolute;
+}
+
+label:after {
+  content: '';
+  background: whitesmoke;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  transition: 0.2s linear;
+}
+
+input:checked + label {
+  background: darkcyan;
+}
+
+input:checked + label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
 }
 
 
