@@ -11473,7 +11473,9 @@ section.resume-section .resume-section-content {
   writing-mode: sideways-rl;
   font-family: sans-serif;
   font-size: 12px;
-  float: right;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 0.5vh;
 }
 
 .side-text a {
@@ -11543,20 +11545,3 @@ input:checked + label:after {
   left: calc(100% - 5px);
   transform: translateX(-100%);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
