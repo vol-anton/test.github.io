@@ -11425,9 +11425,7 @@ p.lead {
 }
 
 /* photo hover */
-.profile-photo a:hover {
-  display: none;
-}
+
 
 
 
@@ -11549,3 +11547,4 @@ input:checked + label:after {
   left: calc(100% - 5px);
   transform: translateX(-100%);
 }
+
