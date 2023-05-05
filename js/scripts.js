@@ -47,4 +47,19 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 
+    // hover over profile pick
+    $profilePic = document.getElementById('profilePic');
+    $yo = document.getElementById('yo');
+
+    $profilePic.addEventListener("mouseover", (e) => {
+        setTimeout(function() { $yo.style.display = 'block'; }, 700);
+    });
+
+    $profilePic.addEventListener("mouseout", (e) => {
+        $yo.style.display = 'none';
+    });
+
+
+
+
 });
